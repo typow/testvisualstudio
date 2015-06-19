@@ -2,13 +2,17 @@
 #include <iostream>
 #include "addTwoNumbers.h"
 
-
+/*
+ *
+ *Adds two numbers from user input
+ *
+ */
 void addTwoNumbers() {
 
 	int num1 = -1;
 	int num2 = -1;
 	int ans = -1;
-
+	
 	num1 = ReadNumber();
 	num2 = ReadNumber();
 
