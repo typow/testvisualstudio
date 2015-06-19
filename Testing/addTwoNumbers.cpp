@@ -23,7 +23,7 @@ void addTwoNumbers() {
 
 int ReadNumber() {
 
-	std::cout << "Enter a number to add";
+	std::cout << "Enter a number to add: " <<std::endl;
 	int num = -1;
 	std::cin >> num;
 	return num;
