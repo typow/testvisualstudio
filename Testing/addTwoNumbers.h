@@ -4,7 +4,7 @@
 #define ADDTWONUMBERS_H 
 
 void addTwoNumbers();
-int ReadNumber();
-void WriteAnswer(int ans);
+int readNumber();
+void writeAnswer(int ans);
 
 #endif

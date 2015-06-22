@@ -13,15 +13,15 @@ void addTwoNumbers() {
 	int num2 = -1;
 	int ans = -1;
 	
-	num1 = ReadNumber();
-	num2 = ReadNumber();
+	num1 = readNumber();
+	num2 = readNumber();
 
 	ans = num1 + num2;
 
-	WriteAnswer(ans);
+	writeAnswer(ans);
 }
 
-int ReadNumber() {
+int readNumber() {
 
 	std::cout << "Enter a number to add: " <<std::endl;
 	int num = -1;
@@ -30,8 +30,8 @@ int ReadNumber() {
 
 }
 
-void WriteAnswer(int ans) {
+void writeAnswer(int ans) {
 
-	std::cout << ans;
+	std::cout << ans <<std::endl;
 
 }
