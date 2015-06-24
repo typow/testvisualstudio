@@ -27,6 +27,12 @@
     <ClInclude Include="addTwoNumbers.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="doubleMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +42,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="addTwoNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
