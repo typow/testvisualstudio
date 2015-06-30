@@ -7,6 +7,8 @@
 #include "addTwoNumbers.h"
 #include "doubleMath.h"
 #include "FallingObject.h"
+#include <string>
+#include "Monster.h"
 
 
 void dataTypeSize() {
@@ -25,10 +27,23 @@ void dataTypeSize() {
 	cout << "long double:\t" << sizeof(long double) << " bytes" << endl;
 }
 
+bool isEven(int num)
+{
+	return !(num  %  2);
+}
+
 
 
 int main()
 {
+	/*
+	int a = 2;
+	int x = a, y;
+	y = 3;
+	std::cout << x + y << std::endl;
+	*/
+
+
 	//addTwoNumbers();
 	//dataTypeSize();
 
@@ -43,6 +58,7 @@ int main()
 	}
 	*/
 
+	/*
 	//FallingObject
 	double height = getHeight();
 	for (int i = 0; i < 6; i++)
@@ -57,6 +73,34 @@ int main()
 		
 
 	}
+	*/
+
+	/*
+	int x = 2;
+	if (isEven(x)) 
+	{
+		
+		std::cout <<"X before: " << x << std::endl;
+		int x = 4;
+		std::cout << "X after: " << x << std::endl;
+
+	}
+	else
+	{
+		std::cout << "False" << std::endl;
+	}
+	
+
+	x = 15;
+	x = (isEven(x)) ? 100 : 0;
+	std::cout << x << std::endl;
+	*/
+
+	Monster torg = {Race::ORGE, "Torg", 145};
+	Monster blurp = { Race::SLIME, "Blurp", 23 };
+
+	PrintMonster(torg);
+	PrintMonster(blurp);
 
 }
 
